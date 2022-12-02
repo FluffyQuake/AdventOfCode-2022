@@ -15,5 +15,3 @@ moves = [(p1, (p1 + p2 - 1) % 3) for p1, p2 in data]
 
 print(sum(score(p1, p2) for p1, p2 in data))
 print(sum(score(p1, p2) for p1, p2 in moves))
-
-# James-Ansley on github :)
